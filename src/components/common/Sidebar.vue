@@ -65,7 +65,7 @@ export default {
       list.forEach((parent, pi) => {
         let item = {}
         item.icon = parent.menuIcon
-        item.index = pi
+        item.index = pi + ''
         item.title = parent.menuName
 
         let sublist = []
@@ -84,7 +84,7 @@ export default {
   },
   computed: {
     onRoutes () {
-      return this.$route.path.replace('/', '')
+      return this.$router.replace('/index')
     }
   }
 }

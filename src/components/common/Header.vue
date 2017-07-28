@@ -58,7 +58,7 @@ export default {
   #header
     color: #fff;
     background-color: #272822;
-    font-size: 1rem;
+    font-size: 1.5rem;
     .logo
       display: inline-block;
       letter-spacing: 0.1rem;
@@ -67,13 +67,13 @@ export default {
       line-height: 3.5rem;
       margin-left: 1.5rem;
     .user
-      font-size: 0.7rem;
+      font-size: 1rem;
       float: right;
       height: 3.5rem;
       line-height: 3.5rem;
       margin-right: 1.5rem;
       .logout
-        font-size: 0.6rem;
+        font-size: 1rem;
         cursor: pointer;
         &:hover
          color: #C9F2FC; 

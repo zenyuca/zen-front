@@ -39,6 +39,7 @@ export default {
       right: 0;
       height: 3.5rem;
       line-height: 3.5rem;
+      z-index: 99999;
     .sidebar, .content
       position: absolute;
       top: 3.5rem;

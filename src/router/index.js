@@ -5,26 +5,10 @@ import App from '@/App'
 import Index from '@/components/Index'
 // common
 import Home from '@/components/common/Home'
-// // user
+// user
 import Login from '@/components/user/Login'
-// import Register from '@/components/user/Register'
-// import Losepwd from '@/components/user/Losepwd'
-// import Setpwd from '@/components/user/Setpwd'
-// // me
-// import Me from '@/components/account/Me'
-// import Settings from '@/components/account/Settings'
-// import SetNewpwd from '@/components/account/SetNewpwd'
-// import SetHead from '@/components/account/SetHead'
-// import SetNickName from '@/components/account/SetNickName'
-// // power
-// import PowerCount from '@/components/power/PowerCount'
-// import PowerPay from '@/components/power/PowerPay'
-// import PayResult from '@/components/power/PayResult'
-// import OrderDetail from '@/components/power/OrderDetail'
-// // record
-// import BuyPowerDetail from '@/components/record/BuyPowerDetail'
-// // history
-// import History from '@/components/record/History'
+// manage
+import Role from '@/components/manage/Role'
 
 Vue.use(Router)
 
@@ -51,6 +35,16 @@ export default new Router({
         {
           path: '',
           component: Index
+        }
+      ]
+    },
+    {
+      path: '/manage/',
+      component: Home,
+      children: [
+        {
+          path: 'role',
+          component: Role
         }
       ]
     }

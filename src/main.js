@@ -19,6 +19,8 @@ import 'mint-ui/lib/style.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import '@/assets/stylus/base.styl'
+import '@/assets/stylus/zen.styl'
+import '@/assets/stylus/reset.css'
 
 Vue.use(VueResource)
 Vue.use(ElementUI)
